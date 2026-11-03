@@ -1,0 +1,1165 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": "Application des notes",
+    "owner": "ADAM",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "   Flux de données",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [
+          {
+            "position": {
+              "x": 20.999999999999034,
+              "y": -29.99999999999929
+            },
+            "size": {
+              "width": 330,
+              "height": 440
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "cbfd1652-de2a-4c35-99a3-f51bc0aa920f",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "29d730f7-ce43-49b0-a3ed-d49f7e1e2024",
+                "73e44e31-28de-4182-9023-2025ee29bf02",
+                "c176b431-374b-4e2c-919d-7d9aed9681e2"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 369.99999999999943,
+              "y": -29.99999999999963
+            },
+            "size": {
+              "width": 310,
+              "height": 440
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "e6be5e70-ade5-43ef-b7cc-24ce4e053bc6",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "675f0a51-3737-4363-9a82-83fbaab18f43",
+                "35ae43d9-3ebf-4286-a4ad-8bc6992b9cbc",
+                "bdd11302-fc42-47df-970c-5c331ed36af5",
+                "d261d63f-85f3-4e7a-a0c7-0cdd6c78c5a8"
+              ],
+              "containedElements": [
+                "b8bc6cd0-312f-45ff-8f4c-3a8ca8c004ac"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 698.9999999999991,
+              "y": -29.999999999999574
+            },
+            "size": {
+              "width": 330,
+              "height": 430
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "498e98b4-9582-4725-8d45-d5d77b7aa290",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "e763df7a-bcee-44a1-b731-9fab73dbe84a"
+              ],
+              "containedElements": [
+                "044086ba-6c93-4680-9142-c0410e3c9214"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 50,
+              "y": 30.000000000000085
+            },
+            "size": {
+              "width": 160,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Étudiant"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 1,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "abca5fe8-1b91-4e17-af80-76d12e638916"
+                },
+                {
+                  "group": "right",
+                  "id": "a94213e1-c75f-4918-8875-c935683093c6"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cbaec5dd-d1fb-4a75-90c1-b4fbb9401834"
+                },
+                {
+                  "group": "left",
+                  "id": "a4e7ff1a-978d-4961-a976-ce9f11b571c2"
+                }
+              ]
+            },
+            "id": "29d730f7-ce43-49b0-a3ed-d49f7e1e2024",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Étudiant",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 50,
+              "y": 157
+            },
+            "size": {
+              "width": 160,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Enseignant"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 2,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "abca5fe8-1b91-4e17-af80-76d12e638916"
+                },
+                {
+                  "group": "right",
+                  "id": "a94213e1-c75f-4918-8875-c935683093c6"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cbaec5dd-d1fb-4a75-90c1-b4fbb9401834"
+                },
+                {
+                  "group": "left",
+                  "id": "a4e7ff1a-978d-4961-a976-ce9f11b571c2"
+                }
+              ]
+            },
+            "id": "73e44e31-28de-4182-9023-2025ee29bf02",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Enseignant",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 50,
+              "y": 282.0000000000001
+            },
+            "size": {
+              "width": 160,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Administrateur"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 3,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "abca5fe8-1b91-4e17-af80-76d12e638916"
+                },
+                {
+                  "group": "right",
+                  "id": "a94213e1-c75f-4918-8875-c935683093c6"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cbaec5dd-d1fb-4a75-90c1-b4fbb9401834"
+                },
+                {
+                  "group": "left",
+                  "id": "a4e7ff1a-978d-4961-a976-ce9f11b571c2"
+                }
+              ]
+            },
+            "id": "c176b431-374b-4e2c-919d-7d9aed9681e2",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Administrateur",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 479,
+              "y": 162
+            },
+            "size": {
+              "width": 120,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "API web"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 4,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "13b33628-0f92-4002-9f41-0d185f2ee900"
+                },
+                {
+                  "group": "right",
+                  "id": "31db6deb-9d3f-4279-be8c-1a29e2c9a9f0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f553fee0-35c9-44e2-8406-6d12aa26bd32"
+                },
+                {
+                  "group": "left",
+                  "id": "b8086b19-822f-4446-93e2-c777add88d64"
+                }
+              ]
+            },
+            "id": "b8bc6cd0-312f-45ff-8f4c-3a8ca8c004ac",
+            "data": {
+              "type": "tm.Process",
+              "name": "API web",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "161046e6-3a51-47f7-8e33-321b97d8b981",
+                  "title": "Usurpation d'identité  ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Un attaquant utilise l'identité d'un enseignant. ",
+                  "mitigation": " Authentification par jeton. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "ca168394-06e0-4b71-830a-1440893c5a31",
+                  "title": "Modification des notes ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un utilisateur modifie une note sans autorisation.",
+                  "mitigation": " Contrôle des rôles et des permissions. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "5738fa15-05d2-4da8-8aff-44dfe9d2563d",
+                  "title": " Absence de traçabilité  ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Un enseignant nie avoir modifié une note.",
+                  "mitigation": "Journalisation des opérations.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "00907266-ddc7-46bf-88fe-38c3706647a3",
+                  "title": "Divulgation d'informations ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "L'API révèle des informations confidentielles.  ",
+                  "mitigation": "Contrôle d'accès et masquage des erreurs. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "e68f9566-b65c-4ba3-af92-2fc4f94b8813",
+                  "title": "Déni de service",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": " L'API devient indisponible.  ",
+                  "mitigation": "Limitation des requêtes et surveillance. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "00bdef0f-c974-487e-8fc5-3f30d91344f7",
+                  "title": " Élévation de privilèges ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Un étudiant obtient les droits d'un enseignant.",
+                  "mitigation": " Vérification des rôles.       ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 860,
+              "y": 167
+            },
+            "size": {
+              "width": 150,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Base des notes"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 5,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "da4bcd1f-e6de-420b-9499-4f5326d1b674"
+                },
+                {
+                  "group": "right",
+                  "id": "02d97ac3-f9e2-483c-9bd6-3ecd6803f02b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fe93ce2b-fc56-4e1a-a1c3-86a09adf3459"
+                },
+                {
+                  "group": "left",
+                  "id": "1f60daa5-72a4-4273-adc7-e4caa8b338e0"
+                }
+              ]
+            },
+            "id": "044086ba-6c93-4680-9142-c0410e3c9214",
+            "data": {
+              "type": "tm.Store",
+              "name": "Base des notes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "05db930d-0e02-403c-8d80-068c688c29df",
+                  "title": " Falsification des notes",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un attaquant modifie directement les notes. ",
+                  "mitigation": " Requêtes SQL paramétrées et droits limités.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "2dd946a7-d5c8-44f9-a884-052dd432a717",
+                  "title": "Divulgation des données",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Un utilisateur accède aux notes sans autorisation.",
+                  "mitigation": " Protection de la base et contrôle d'accès.  ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "3ade0cd5-f4da-4a38-a2bd-da52bf312d31",
+                  "title": " Suppression des données",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "La base devient indisponible après une attaque. ",
+                  "mitigation": "Sauvegardes régulières et contrôle des accès.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "   administration du serveur",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "e6be5e70-ade5-43ef-b7cc-24ce4e053bc6"
+              ]
+            },
+            "labels": [
+              "   administration du serveur"
+            ],
+            "id": "675f0a51-3737-4363-9a82-83fbaab18f43",
+            "source": {
+              "x": 210,
+              "y": 319
+            },
+            "target": {
+              "cell": "b8bc6cd0-312f-45ff-8f4c-3a8ca8c004ac",
+              "port": "f553fee0-35c9-44e2-8406-6d12aa26bd32"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "   lecture et écriture des notes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "498e98b4-9582-4725-8d45-d5d77b7aa290"
+              ]
+            },
+            "labels": [
+              "   lecture et écriture des notes"
+            ],
+            "id": "e763df7a-bcee-44a1-b731-9fab73dbe84a",
+            "source": {
+              "x": 580,
+              "y": 196
+            },
+            "target": {
+              "cell": "044086ba-6c93-4680-9142-c0410e3c9214",
+              "port": "1f60daa5-72a4-4273-adc7-e4caa8b338e0"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 196
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "   saisie et modification des notes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "e6be5e70-ade5-43ef-b7cc-24ce4e053bc6"
+              ]
+            },
+            "labels": [
+              "   saisie et modification des notes"
+            ],
+            "id": "35ae43d9-3ebf-4286-a4ad-8bc6992b9cbc",
+            "source": {
+              "x": 210,
+              "y": 195
+            },
+            "target": {
+              "cell": "b8bc6cd0-312f-45ff-8f4c-3a8ca8c004ac",
+              "port": "b8086b19-822f-4446-93e2-c777add88d64"
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": 195
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "ecrire / mise a jour",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "e6be5e70-ade5-43ef-b7cc-24ce4e053bc6"
+              ]
+            },
+            "labels": [
+              "ecrire / mise a jour"
+            ],
+            "id": "bdd11302-fc42-47df-970c-5c331ed36af5",
+            "source": {
+              "x": 940,
+              "y": 230
+            },
+            "target": {
+              "cell": "b8bc6cd0-312f-45ff-8f4c-3a8ca8c004ac",
+              "port": "f553fee0-35c9-44e2-8406-6d12aa26bd32"
+            },
+            "vertices": [
+              {
+                "x": 750,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "   consultation des notes",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "a58778a6-db55-4718-be2d-7693a7389078",
+                  "title": "Nouvelle menace STRIDE",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Falsification",
+                  "description": "Fournissez une description de cette menace",
+                  "mitigation": "Fournir des mesures de mitigation ou de prévention pour cette menace",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "1fa6af6d-7068-464c-bd6b-1faee3c74adb",
+                  "title": "Modification non autorisée des requêtes",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": " Un étudiant consulte les notes d'un autre étudiant. ",
+                  "mitigation": "Authentification et contrôle d'accès.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                },
+                {
+                  "id": "171a047c-1679-40e8-8975-ba6da6a79c84",
+                  "title": "Saturation de l'API  ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Un utilisateur envoie trop de requêtes. ",
+                  "mitigation": " Limitation du nombre de requêtes. ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "e6be5e70-ade5-43ef-b7cc-24ce4e053bc6"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 2
+              }
+            },
+            "labels": [
+              "   consultation des notes"
+            ],
+            "id": "d261d63f-85f3-4e7a-a0c7-0cdd6c78c5a8",
+            "source": {
+              "x": 210,
+              "y": 50
+            },
+            "target": {
+              "cell": "b8bc6cd0-312f-45ff-8f4c-3a8ca8c004ac",
+              "port": "13b33628-0f92-4002-9f41-0d185f2ee900"
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 100
+              },
+              {
+                "x": 310,
+                "y": 140
+              },
+              {
+                "x": 400,
+                "y": 160
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "ELGHAZOUANI",
+    "threatTop": 13
+  }
+}
